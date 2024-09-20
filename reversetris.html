@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Inverso</title>
+    <link rel="stylesheet" href="reverse.css">
+</head>
+<body>
+    <h1>Tic-Tac-Toe Inverso</h1>
+    <div id="game-board">
+        <!-- Grande Quadrante 0 -->
+        <div class="large-quadrant" id="large-0">
+            <div class="small-quadrant" data-index="0"></div>
+            <div class="small-quadrant" data-index="1"></div>
+            <div class="small-quadrant" data-index="2"></div>
+            <div class="small-quadrant" data-index="3"></div>
+            <div class="small-quadrant" data-index="4"></div>
+            <div class="small-quadrant" data-index="5"></div>
+            <div class="small-quadrant" data-index="6"></div>
+            <div class="small-quadrant" data-index="7"></div>
+            <div class="small-quadrant" data-index="8"></div>
+        </div>
+
+        <!-- Grande Quadrante 1 -->
+        <div class="large-quadrant" id="large-1">
+            <div class="small-quadrant" data-index="0"></div>
+            <div class="small-quadrant" data-index="1"></div>
+            <div class="small-quadrant" data-index="2"></div>
+            <div class="small-quadrant" data-index="3"></div>
+            <div class="small-quadrant" data-index="4"></div>
+            <div class="small-quadrant" data-index="5"></div>
+            <div class="small-quadrant" data-index="6"></div>
+            <div class="small-quadrant" data-index="7"></div>
+            <div class="small-quadrant" data-index="8"></div>
+        </div>
+
+        <!-- Grande Quadrante 2 -->
+        <div class="large-quadrant" id="large-2">
+            <div class="small-quadrant" data-index="0"></div>
+            <div class="small-quadrant" data-index="1"></div>
+            <div class="small-quadrant" data-index="2"></div>
+            <div class="small-quadrant" data-index="3"></div>
+            <div class="small-quadrant" data-index="4"></div>
+            <div class="small-quadrant" data-index="5"></div>
+            <div class="small-quadrant" data-index="6"></div>
+            <div class="small-quadrant" data-index="7"></div>
+            <div class="small-quadrant" data-index="8"></div>
+        </div>
+
+        <!-- Grande Quadrante 3 -->
+        <div class="large-quadrant" id="large-3">
+            <div class="small-quadrant" data-index="0"></div>
+            <div class="small-quadrant" data-index="1"></div>
+            <div class="small-quadrant" data-index="2"></div>
+            <div class="small-quadrant" data-index="3"></div>
+            <div class="small-quadrant" data-index="4"></div>
+            <div class="small-quadrant" data-index="5"></div>
+            <div class="small-quadrant" data-index="6"></div>
+            <div class="small-quadrant" data-index="7"></div>
+            <div class="small-quadrant" data-index="8"></div>
+        </div>
+
+        <!-- Grande Quadrante 4 -->
+        <div class="large-quadrant" id="large-4">
+            <div class="small-quadrant" data-index="0"></div>
+            <div class="small-quadrant" data-index="1"></div>
+            <div class="small-quadrant" data-index="2"></div>
+            <div class="small-quadrant" data-index="3"></div>
+            <div class="small-quadrant" data-index="4"></div>
+            <div class="small-quadrant" data-index="5"></div>
+            <div class="small-quadrant" data-index="6"></div>
+            <div class="small-quadrant" data-index="7"></div>
+            <div class="small-quadrant" data-index="8"></div>
+        </div>
+
+        <!-- Grande Quadrante 5 -->
+        <div class="large-quadrant" id="large-5">
+            <div class="small-quadrant" data-index="0"></div>
+            <div class="small-quadrant" data-index="1"></div>
+            <div class="small-quadrant" data-index="2"></div>
+            <div class="small-quadrant" data-index="3"></div>
+            <div class="small-quadrant" data-index="4"></div>
+            <div class="small-quadrant" data-index="5"></div>
+            <div class="small-quadrant" data-index="6"></div>
+            <div class="small-quadrant" data-index="7"></div>
+            <div class="small-quadrant" data-index="8"></div>
+        </div>
+
+        <!-- Grande Quadrante 6 -->
+        <div class="large-quadrant" id="large-6">
+            <div class="small-quadrant" data-index="0"></div>
+            <div class="small-quadrant" data-index="1"></div>
+            <div class="small-quadrant" data-index="2"></div>
+            <div class="small-quadrant" data-index="3"></div>
+            <div class="small-quadrant" data-index="4"></div>
+            <div class="small-quadrant" data-index="5"></div>
+            <div class="small-quadrant" data-index="6"></div>
+            <div class="small-quadrant" data-index="7"></div>
+            <div class="small-quadrant" data-index="8"></div>
+        </div>
+
+        <!-- Grande Quadrante 7 -->
+        <div class="large-quadrant" id="large-7">
+            <div class="small-quadrant" data-index="0"></div>
+            <div class="small-quadrant" data-index="1"></div>
+            <div class="small-quadrant" data-index="2"></div>
+            <div class="small-quadrant" data-index="3"></div>
+            <div class="small-quadrant" data-index="4"></div>
+            <div class="small-quadrant" data-index="5"></div>
+            <div class="small-quadrant" data-index="6"></div>
+            <div class="small-quadrant" data-index="7"></div>
+            <div class="small-quadrant" data-index="8"></div>
+        </div>
+
+        <!-- Grande Quadrante 8 -->
+        <div class="large-quadrant" id="large-8">
+            <div class="small-quadrant" data-index="0"></div>
+            <div class="small-quadrant" data-index="1"></div>
+            <div class="small-quadrant" data-index="2"></div>
+            <div class="small-quadrant" data-index="3"></div>
+            <div class="small-quadrant" data-index="4"></div>
+            <div class="small-quadrant" data-index="5"></div>
+            <div class="small-quadrant" data-index="6"></div>
+            <div class="small-quadrant" data-index="7"></div>
+            <div class="small-quadrant" data-index="8"></div>
+        </div>
+    </div>
+
+    <div id="timer">Tempo rimasto: <span id="time-remaining">5</span> secondi</div>
+
+    <script src="reverse.js"></script>
+</body>
+</html>
